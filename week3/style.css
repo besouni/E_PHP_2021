@@ -1,0 +1,58 @@
+.upload{
+   width: 550px;
+   min-height: 100px;
+   border: solid 5px green;
+   padding: 10px;
+   box-sizing: border-box;
+   margin: 10px auto;
+   background-color: antiquewhite;
+}
+
+.upload form{
+   border: solid black 1px;
+   margin: 10px;
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+.root{
+   width: 550px;
+   min-height: 100px;
+   border: solid 5px green;
+   padding: 10px;
+   box-sizing: border-box;
+   margin: 10px auto;
+   background-color: antiquewhite;
+}
+
+.info{
+   width: 750px;
+   min-height: 100px;
+   border: solid 5px green;
+   padding: 10px;
+   box-sizing: border-box;
+   margin: 10px auto;
+   background-color: antiquewhite;
+}
+
+.info .title{
+   background-color: aqua;
+   padding: 8px;
+   font-weight: bold;
+}
+
+.info .text{
+   background-color:aliceblue;
+   padding: 8px;
+   margin: 0px;
+}
+
+.info .author{
+   background-color:aliceblue;
+   padding: 8px;
+   margin: 0px;
+   border-bottom: solid 2px black;
+}
+
+
+
