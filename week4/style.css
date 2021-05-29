@@ -1,0 +1,48 @@
+header, main, footer{
+   border: solid 2px gray;
+   margin: auto;
+   width: 70%;
+   margin-bottom: 10px;
+}
+
+
+header{
+   background-color: antiquewhite;
+   height: 100px;
+}
+
+main{
+   background-color: aquamarine;
+   min-height: 300px;
+   display: flex;
+}
+
+nav{
+   flex:2;
+}
+
+.content{
+   flex:5;
+   background-color: white;
+   padding: 20px;
+}
+
+footer{
+   background-color: bisque;
+   height: 30px;
+}
+
+.insert{
+   /* padding: 20px; */
+}
+
+.info{
+   margin-bottom: 10px;
+   background-color: beige;
+   border-bottom: solid 2px gray;
+   padding: 20px;
+}
+
+.info span{
+   margin-right: 10px;
+}
