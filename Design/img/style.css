@@ -1,0 +1,35 @@
+.container{
+   display: flex;
+   border: solid 1px gray;
+   justify-content: center;
+   padding: 10px;
+   box-sizing: border-box;
+   align-items: center;
+   align-content: center;
+   min-height: 150px;
+   flex-wrap: wrap;
+}
+
+
+.img img{
+   width: 250px;
+   height: 150px;
+}
+
+.img img{
+   background-color: gray;
+   border-radius: 20%;
+}
+
+.title{
+   text-align: center;
+   padding: 20px;
+   font-weight: bold;
+   font-size: 1.3em;
+}
+
+@media (min-width:564px){
+   .container{
+      justify-content: space-between;
+   }
+}
